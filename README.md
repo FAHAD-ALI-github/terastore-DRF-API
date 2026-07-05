@@ -1,96 +1,96 @@
-# 📌 TeraStore API
+# TeraStore API
 
-This project is a Django REST Framework backend API for an e-commerce platform, specifically a tech store. It provides a robust and scalable API for managing products, categories, and other e-commerce-related data. The API is designed to be consumed by a separate frontend application.
+<p align="center">
 
------
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Django](https://img.shields.io/badge/Django-success?logo=django)
+![Django REST Framework](https://img.shields.io/badge/DRF-API-red)
+![PythonAnywhere](https://img.shields.io/badge/Hosted%20on-PythonAnywhere-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
+</p>
+
+<p align="center">
+A Django REST Framework backend that powers the TeraStore React application by providing product data, category management, and RESTful API endpoints.
+</p>
+
+---
 
 ## ✨ Features
 
-  - **Product Management:** Retrieve a list of all products or details for a single product.
-  - **Category-based Filtering:** Fetch products based on their category.
-  - **Category Listing:** Get a list of all available product categories.
-  - **Admin Portal:** Manage products and categories through the built-in Django Admin interface.
-  - **RESTful Endpoints:** Well-defined API endpoints for seamless integration with a frontend.
+- 📦 Product Management
+- 🗂 Category Management
+- 🔗 RESTful API Endpoints
+- 🛠 Django Admin Panel
+- 🌐 CORS Support
+- ⚡ Easy integration with React applications
 
------
+---
 
-## 🛠️ Tech Stack
+## 🎥 Live Demo
 
-  - **Python**
-  - **Django**: A high-level Python web framework for rapid development.
-  - **Django REST Framework**: A powerful toolkit for building Web APIs.
-  - **django-cors-headers**: A Django app for handling Cross-Origin Resource Sharing (CORS).
-  - **Pillow**: The Python Imaging Library, used for image processing.
+🌐 **Frontend Website**
 
------
+https://tera-tech-store.vercel.app/
 
-## 📁 Folder Structure
+---
 
-```
-terastore/
-├── terastore/
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── products/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── urls.py
-│   └── views.py
-├── db.sqlite3
-├── manage.py
-└── requirements.txt
+## 🏗 Architecture
+
+```text
+React Frontend
+       │
+       ▼
+ Django REST API
+       │
+       ▼
+ Product Database
 ```
 
------
+---
 
-## 🚀 How to Run
+## 🔗 Frontend Repository
 
-To get this project up and running on your local machine, follow these steps:
+This API powers the **TeraStore React Frontend**.
 
-1.  **Clone the repository**
-    ```bash
-    git clone https://github.com/FAHAD-ALI-github/terastore-DRF-API.git
-    ```
-2.  **Navigate into the project directory**
-    ```bash
-    cd terastore-DRF-API
-    ```
-3.  **Install dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  **Run migrations**
-    ```bash
-    python manage.py makemigrations
-    python manage.py migrate
-    ```
-5.  **Create a superuser to access the admin portal**
-    ```bash
-    python manage.py createsuperuser
-    ```
-6.  **Run the development server**
-    ```bash
-    python manage.py runserver
-    ```
-    The API will be available at `http://127.0.0.1:8000/`.
+➡️ https://github.com/FAHAD-ALI-github/TeraStore-frontend
 
------
+The API source code is maintained on GitHub and deployed on **PythonAnywhere**, allowing quick updates and easy deployment.
 
+---
 
-## 🌐 Live Demo
+## 🚀 Installation
 
-[🔗 Live Site](https://tera-tech-store.vercel.app/)
+```bash
+git clone https://github.com/FAHAD-ALI-github/terastore-DRF-API.git
 
------
+cd terastore-DRF-API
 
-## 👤 Author
+pip install -r requirements.txt
 
-**Fahad Ali** \* GitHub: [@FAHAD-ALI-github](https://github.com/FAHAD-ALI-github)
+python manage.py migrate
 
-  * LinkedIn: [fahadali1078](https://www.linkedin.com/in/fahadali1078/)
+python manage.py runserver
+```
+
+---
+
+## 👨‍💻 Developer
+
+<div align="center">
+
+## Fahad Ali
+
+**Software Engineer | Full Stack Python Developer | AI Engineer**
+
+[![GitHub](https://img.shields.io/badge/GitHub-FAHAD--ALI--github-black?logo=github)](https://github.com/FAHAD-ALI-github)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fahad%20Ali-blue?logo=linkedin)](https://www.linkedin.com/in/fahadali1078)
+
+</div>
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
